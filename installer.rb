@@ -39,7 +39,7 @@ command :test do |c|
   end
 end
 
-command :install-client do |c|
+command :installClient do |c|
   c.syntax = 'work-computer install-client [options]'
   c.summary = ''
   c.description = ''
@@ -50,7 +50,7 @@ command :install-client do |c|
   end
 end
 
-command :install-server do |c|
+command :installServer do |c|
   c.syntax = 'work-computer install-server [options]'
   c.summary = ''
   c.description = ''
